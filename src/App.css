@@ -1,11 +1,10 @@
 .App-header {
-  max-width: 800px;
+  max-width: 600px;
   margin: 80px auto;
-  margin-bottom: 2px;
   border: 2px solid #dadde1;
-  padding: 20px;
+  padding: 10px;
   border-radius: 10px;
-  min-height: 100vh;
+  min-height: 100px;
   display: flex;
   flex-direction: column;
   background: rgb(245, 212, 217);

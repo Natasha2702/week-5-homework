@@ -18,7 +18,7 @@ export default function WeatherContent(props) {
             </div>
           </div>
 
-          <div className="col mt-5">
+          <div className="col mt-3">
             <h1>{props.data.city}</h1>
           </div>
 
