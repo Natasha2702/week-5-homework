@@ -1,0 +1,16 @@
+.App-header {
+  max-width: 800px;
+  margin: 80px auto;
+  margin-bottom: 2px;
+  border: 2px solid #dadde1;
+  padding: 20px;
+  border-radius: 10px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: rgb(245, 212, 217);
+}
+
+.App h1 {
+  text-align: center;
+}
