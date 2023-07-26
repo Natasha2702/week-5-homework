@@ -70,7 +70,7 @@ export default function Weather(props) {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  open-source
+                  open-sourced on github
                 </a>{" "}
                 and{" "}
                 <a
