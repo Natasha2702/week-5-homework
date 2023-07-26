@@ -1,6 +1,7 @@
 import React from "react";
 import Date from "./Date";
 import WeatherIcons from "./WeatherIcons";
+import WeatherTemperature from "./WeatherTemperature";
 import "./WeatherInfo.css";
 
 export default function WeatherContent(props) {
@@ -11,10 +12,9 @@ export default function WeatherContent(props) {
           <div className="temperature-container d-flex justify-content-start">
             <div className="col mt-3 mb-0">
               <WeatherIcons code={props.data.icon} size={50} />
-              <span className="temperature">
-                {Math.round(props.data.temperature)}
-              </span>
-              <span className="unit">°C</span>
+            </div>
+            <div className="temperature col-10">
+              <WeatherTemperature celsius={props.data.temperature} />
             </div>
           </div>
 
