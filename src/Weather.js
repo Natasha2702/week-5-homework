@@ -65,11 +65,19 @@ export default function Weather(props) {
             <div>
               <p>
                 Made by Natasha <br />
-                <a href="/" target="_blank" rel="noreferrer">
+                <a
+                  href="https://github.com/Natasha2702/week-5-homework"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   open-source
                 </a>{" "}
                 and{" "}
-                <a href="/" target="_blank" rel="noopener noreferrer">
+                <a
+                  href="https://rococo-axolotl-5f8766.netlify.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   hosted on Netlify
                 </a>
               </p>
